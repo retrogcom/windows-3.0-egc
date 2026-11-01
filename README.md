@@ -2,7 +2,11 @@
 
 A **640x400, 16-colour** display driver for Microsoft Windows 3.0 on the
 **Olivetti Enhanced Graphics Controller (EGC)** and **AT&T Display Enhancement
-Board (DEB)**. It supports the Olivetti M28, also known as the AT&T PC 6310.
+Board (DEB)**. It supports the Olivetti M28, also known as the AT&T PC 6310. 
+This driver has not been hardware tested on the M24 or other DEB/EGC compatible models.
+
+NOTICE: This driver was developed with the help of OpenAI's Codex tool. The whole development
+process has been hardware tested on my Olivetti M28 every step on the way.
 
 ![Windows 3.0 colour startup screen](docs/images/startup-en.png)
 
@@ -32,15 +36,13 @@ preferred version in Windows Setup. Both use the same display driver.
   supported by this package.
 
 **M28 BIOS restriction:** the included M28W3 utility is intended for BIOS
-1.08. Do not apply it to BIOS 2.12. It checks DOSX.EXE compatibility but does
-not identify the BIOS automatically. See [M28.md](docs/M28.md).
+1.08. Do not apply it to BIOS 2.12. See [M28.md](docs/M28.md).
 
 ## Features
 
 - Sixteen-colour GDI drawing, including text, borders, fills, lines, bitmaps
   and device-independent bitmaps.
 - Native EGC colour startup and restoration to DOS text on exit.
-- Software mouse cursor with drawing exclusion and save/restore support.
 - Normal Windows DOS Setup installation, including system-font selection.
 - Backup and restoration of SYSTEM.INI, WIN.INI and WIN.COM.
 
