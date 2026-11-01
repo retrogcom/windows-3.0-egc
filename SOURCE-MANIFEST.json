@@ -11,29 +11,113 @@
     "bytes": 8977,
     "sha256": "3cb6f690c20c8f849775f4f83ce1e37f6af01dc0f580414505bee2dfadda4b82"
   },
+  "BUILDING.md": {
+    "bytes": 2955,
+    "sha256": "02e2bde45ab2fe34536315af61da9d922040e1fcd1b8dd542fcbc7660505eaea"
+  },
+  "HELPER-INPUTS.json": {
+    "bytes": 799,
+    "sha256": "4621330cb7f74276f8cc7ac95c2693cb5f2cf7465430260dee6eda9f4cb0dc78"
+  },
+  "INSTALLATION.md": {
+    "bytes": 3648,
+    "sha256": "1a840511c42e4f4443f24ae95ec7e8b882872035de17aa0567180a8b523bb999"
+  },
+  "LICENSE": {
+    "bytes": 18411,
+    "sha256": "a1f66531b3c0b1faf49ac6272698fa6086911faffb9bf032d71299517ac0df6c"
+  },
+  "README.md": {
+    "bytes": 3215,
+    "sha256": "e5bc8ce2d06d610799b49248ce5e7e408eeca71bf1a9448876e572418318a083"
+  },
+  "RELEASE_NOTES.md": {
+    "bytes": 1228,
+    "sha256": "b6b1138cfac6b20d7f46410a58d2a4a760b701c836347f6159e5103ff4292cad"
+  },
+  "THIRD_PARTY.md": {
+    "bytes": 1525,
+    "sha256": "cdb86efee893bde99181fbd73fc43d60cc700a157c339aab9cb1a62431470835"
+  },
+  "assets/EGCLOGN.RLE": {
+    "bytes": 13124,
+    "sha256": "83f429c3cff121ec9faf6f37afb641d887c0f2cd20746179c8cd085e74a66357"
+  },
+  "assets/EGCLOGO.RLE": {
+    "bytes": 13291,
+    "sha256": "5b8092c4e381cfba62d8bf77418b9876cb57478927a821c90ed105a710cc653f"
+  },
+  "assets/README.md": {
+    "bytes": 838,
+    "sha256": "40cfc57e1968de354e538ab04256744c3b3f5dfdf642f7e8b27411f5bbe14f9d"
+  },
   "build_driver.py": {
     "bytes": 2642,
     "sha256": "661467981f38147511610c6a782c729916a37bfc0f07db9534f7eb1708ce6579"
   },
-  "BUILDING.md": {
-    "bytes": 2718,
-    "sha256": "5d0766114117027d3d44dcd6d8e9d4921f5e8ec8ba94d4c29a112e6c05f3dd6c"
+  "build_helpers.py": {
+    "bytes": 4165,
+    "sha256": "9404cfef14e84771f82ad42e62a32cfd25dd15f7ac5e25cd03c9ec99e03034ca"
+  },
+  "compat/M28W3/CTXMASK.BIN": {
+    "bytes": 181,
+    "sha256": "34b05bf6b8f5d8f7aeee296f67004c16620f80d89ce0b974f5ff63b6fb90e6df"
+  },
+  "compat/M28W3/LAYOUT.INC": {
+    "bytes": 232,
+    "sha256": "dd3e9bf7cffd0f7f91f6d66f5733bb0bde17f42e14f2a6f5baff96e7ac06bbe9"
+  },
+  "compat/M28W3/M28W3.ASM": {
+    "bytes": 15127,
+    "sha256": "ab18155170bfaf2e24dc845c3ed9ec32fb7b61a692c7dacdeab68335abba7a50"
+  },
+  "compat/M28W3/NEWCTX.BIN": {
+    "bytes": 181,
+    "sha256": "743cdf07c29f192ab9e59d939ffb500a824ddb0eee6cfc7d7e5c4cc82c94d91f"
+  },
+  "compat/M28W3/OLDCTX.BIN": {
+    "bytes": 181,
+    "sha256": "2f8f72968bcf996b071c7c15a792fe00aa83586e4a47b8c06207591343942228"
+  },
+  "compat/M28W3/PATCH.BIN": {
+    "bytes": 17,
+    "sha256": "b967b2600e67c4f4746c0b7826816e110a33cb0aff2422663228cfa826eb8a79"
+  },
+  "compat/M28W3/VIDNEW.BIN": {
+    "bytes": 147,
+    "sha256": "5290da96084a72c9c3e84e18e5d3ec595e45e588bab26653edb5734da93e4793"
+  },
+  "compat/M28W3/VIDOLD.BIN": {
+    "bytes": 147,
+    "sha256": "717452574e70e317e9ad0041e0f0acb44fd6d709b0ad14703a19b336ee9f05fb"
+  },
+  "compat/M28W3/VIDPATCH.BIN": {
+    "bytes": 30,
+    "sha256": "d6e0fa088f58cc343d4f63c0c6a8705092265511ada98187bf23c2a733adf2b5"
   },
   "docs/ARCHITECTURE.md": {
-    "bytes": 2256,
-    "sha256": "9039b10d6363e7a1a9cb95d0962f1dbcf8c97ea15f2b3ed1fc1a83e6eef46ef5"
+    "bytes": 2248,
+    "sha256": "e26efff2f24cd8d56256cca7733e7fc3f4d481fe94c1989081e69dbefa0f30f4"
   },
-  "docs/VALIDATION.md": {
-    "bytes": 2331,
-    "sha256": "97387e5c66691399ef4881a785bc16f704dfa14f7b1258894bc2a556bf87264b"
+  "docs/COMPATIBILITY.md": {
+    "bytes": 2507,
+    "sha256": "059658c52e69ed915670cfdb9008622a8d129e91f66aad29ca37bd8b1404d06a"
+  },
+  "docs/M28.md": {
+    "bytes": 2656,
+    "sha256": "c44a388f3c55530b331808cbad1ab4ed412a08a9f711503fb1c4da1b8740813b"
+  },
+  "docs/images/startup-en.png": {
+    "bytes": 5536,
+    "sha256": "e383c12ba60370b5ead3912accb1a384e4991d9aa033bd175515490f730edde6"
+  },
+  "docs/images/startup-no.png": {
+    "bytes": 5490,
+    "sha256": "24ee9b38f50549f6c26749d90581aca939310ae7efff037917cd64ea4ab06f3e"
   },
   "driver/BUILD.BAT": {
     "bytes": 700,
     "sha256": "13207b125ca8f373b42836e75c43d07e52dbe9c2160d4240cb06f49c12ce9816"
-  },
-  "driver/resource-inputs.json": {
-    "bytes": 12463,
-    "sha256": "5fbeb0b2287d12b76b3a921bebf760f88cbd6b7ceae9494ff22cac7bb76dbed9"
   },
   "driver/SRC/ALIAS.INC": {
     "bytes": 15240,
@@ -211,9 +295,13 @@
     "bytes": 29743,
     "sha256": "cedddd5e0f294ba20a7bac165a111cdbb9f08e3d0c290e0b8bb6d103d3654348"
   },
+  "driver/resource-inputs.json": {
+    "bytes": 11936,
+    "sha256": "86a7e7ed9c1cbbe593b977f398d49d6ed681b3a3f4faf25d5e3b624238002e17"
+  },
   "driver/tool-inputs.json": {
-    "bytes": 2105,
-    "sha256": "7c77dfe80ceebcab35f174d62505ee18c479c27c8365fd299c815f097f54a606"
+    "bytes": 1995,
+    "sha256": "1c4937560ed470020e41d1975df60b686b1a1dead4de7ea80cff4fbc806a2366"
   },
   "helpers/CMPINI.ASM": {
     "bytes": 2155,
@@ -227,36 +315,40 @@
     "bytes": 3277,
     "sha256": "cf6c5bce90f4a5d5b221a2a1ad58449bf6651ad029289fdb62d808824acde2b5"
   },
-  "INSTALLATION.md": {
-    "bytes": 2423,
-    "sha256": "3d53a239682444b65bd569b4f731fc0ae85f5f89d5138533f81f3b563852c994"
+  "helpers/LOGONO.ASM": {
+    "bytes": 3277,
+    "sha256": "7a190561606dfc767f6edc8349b3ebf30e7834863905e9c317dc776a6a5ae42e"
   },
   "installer/BACKUP.BAT": {
-    "bytes": 1565,
-    "sha256": "86c56de32c432ac5a4abda04d71e16decc87d550bc0f4b2d55ba81cc18bc61c2"
+    "bytes": 1543,
+    "sha256": "940b5c4a38f9cf90c32704d7cdcf8cbcc1facd0a07633e17cf797f5aa48bcaaf"
+  },
+  "installer/EGCPRES.TAG": {
+    "bytes": 34,
+    "sha256": "700f0f9b09848206264136f96c08737c3189f32ed04a52eff758809eb08c8eac"
+  },
+  "installer/INSTALL.TXT": {
+    "bytes": 2666,
+    "sha256": "f0fdc5c85a81f35d12f4b9ed7ad3181daeaae1d4d869d8b98db24b8b6088c75f"
+  },
+  "installer/M28FIX.TXT": {
+    "bytes": 1682,
+    "sha256": "2fbca225a497fc52ae71050acbada16f39d68f2fc8212d4352ba040ca8d8737f"
   },
   "installer/OEMSETUP.INF": {
-    "bytes": 1008,
-    "sha256": "fe261eabc2f1c9853e4e252ace73774955058e84a0ad8aa61a7d98058be0c897"
+    "bytes": 1155,
+    "sha256": "2888a251809eddf908d096bdb446ad63e42db26527879cf9e20fb2ed08d8061a"
   },
   "installer/RESTORE.BAT": {
-    "bytes": 1308,
-    "sha256": "f1a87051c44d51c048c2b2304fa19fadc945232256bff6253a0ca87097e0ca3f"
+    "bytes": 1286,
+    "sha256": "9554dd2a49e0f2f1796c2581ec4ab1eb3f85e83b54f03fd16e427f9a64acd9d4"
   },
-  "LICENSE": {
-    "bytes": 1087,
-    "sha256": "878a0293212a2b857557bb89f2601b46f353364f03742abf3e52dfd741fd03d4"
+  "installer/RIGHTS.TXT": {
+    "bytes": 724,
+    "sha256": "0e1bbe88c6ef3f55e61326b941dfe23b7dd2ff1f46a15ff965103a8ed6218830"
   },
-  "README.md": {
-    "bytes": 4003,
-    "sha256": "bdddbee5eea27bb9f00b2305ecd595c0497dcd6d35ce5ac1c6635347b74a791c"
-  },
-  "RELEASE_NOTES.md": {
-    "bytes": 1109,
-    "sha256": "46627a81bc66764183ac5747fa423dbd7ef134d4e93341620acdb31c0ad585a0"
-  },
-  "THIRD_PARTY.md": {
-    "bytes": 1577,
-    "sha256": "313ae48e8d94ba2859ffb40672b746154c81d682dd2b21182c878b9fb00a3e90"
+  "package.py": {
+    "bytes": 3190,
+    "sha256": "49217718ba2c988e1acec2ae8c65ec89a7dc76a6f5895a0e1143bea9b5cc2cc9"
   }
 }

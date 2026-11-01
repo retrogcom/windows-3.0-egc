@@ -1,79 +1,66 @@
-# Windows 3.0 EGC display driver
+# Windows 3.0 EGC Driver
 
-A 640x400, 16-colour Windows 3.0 display driver for the **Olivetti EGC / AT&T
-Display Enhancement Board (DEB)**, developed for the Olivetti M28 / AT&T
-PC 6310 with an 8 MHz 80286.
+A **640x400, 16-colour** display driver for Microsoft Windows 3.0 on the
+**Olivetti Enhanced Graphics Controller (EGC)** and **AT&T Display Enhancement
+Board (DEB)**. It supports the Olivetti M28, also known as the AT&T PC 6310.
 
-**Source prerelease: 0.21-appearance.1.** This repository contains original
-driver and helper sources, build-input hashes and OEM Setup templates.
-There is no ready-to-install driver download in this prerelease. The local
-compiled candidate contains separately licensed Windows/DDK resources and
-startup artwork, so it is not included pending redistribution review or
-replacement. See [third-party inputs](THIRD_PARTY.md).
+![Windows 3.0 colour startup screen](docs/images/startup-en.png)
 
-## What it does
+## Download
 
-- Implements Windows GDI drawing in sixteen fixed colours: fills, borders,
-  lines, pixels, text, bitmap copies, DIB conversion and software cursors.
-- Uses shared rendering paths rather than application-specific acceleration.
-- Supports native colour-startup handoff and normal restoration to DOS text.
-- Draws broad filled areas in four-row bands across the colour planes, to
-  reduce the visible effect of drawing widely separated rows first.
-- Provides normal Windows DOS Setup metadata, including fonts obtained from
-  the user's Windows 3.0 files. A hard-drive source folder works; A: is optional.
+Download **EGC30A2.ZIP** from the [Releases page](https://github.com/retrogcom/windows-3.0-egc/releases).
+It contains the compiled driver, native colour startup components, Windows
+Setup installer, backup/restore utilities and M28 compatibility patch.
+**EGC30SRC.ZIP** contains the corresponding source code.
 
-The hardware baseline has been tested on an M28 using DOS 6.22 and Windows
-3.0 real mode. This later appearance candidate has desk validation and still
-needs its own M28 startup/fill/performance comparison. Standard mode requires
-separate target qualification; 386 Enhanced mode and Windows 3.1 are unsupported
-by this release. The original DEB resident driver must already be loaded.
+Start with [Installation](INSTALLATION.md). Read the
+[M28 compatibility instructions](docs/M28.md) before using Standard mode.
+The startup artwork is available in English and Norwegian; select the
+preferred version in Windows Setup. Both use the same display driver.
 
-## Build and installation
+## Requirements and compatibility
 
-Read [BUILDING.md](BUILDING.md). The display build requires Python 3,
-DOSBox-X and the separately supplied historical compiler/header/resource
-inputs listed in [BUILD-INPUTS.json](BUILD-INPUTS.json). The helper verifies
-those inputs and requires a byte-identical display binary.
+- Olivetti EGC / AT&T DEB with a compatible monitor.
+- A working Windows 3.0 installation and the original DEB resident driver
+  loaded in DOS. Windows and the resident driver are not included.
+- DOS 3.1 or later. **DOS 3.1 has been tested on the M28 in both Windows
+  real mode and Standard mode.** DOS 6.22 has also been used with the driver.
+- Your Windows 3.0 font files: VGASYS.FON, VGAFIX.FON, EGAOEM.FON and HELVB.FON.
+  Setup can read them from a hard-drive directory or a floppy.
+- Standard mode requires suitable extended memory and its working memory
+  manager configuration. Windows 386 Enhanced mode and Windows 3.1 are not
+  supported by this package.
 
-[INSTALLATION.md](INSTALLATION.md) documents the tested OEM Setup procedure
-for a complete locally assembled package. The templates in `installer/`
-are not independently installable: compiled driver/helper files and startup
-artwork are not in this source release. Windows, fonts, DEB resident software,
-SDK/DDK toolchains, commercial games and disk images are not distributed here.
+**M28 BIOS restriction:** the included M28W3 utility is intended for BIOS
+1.08. Do not apply it to BIOS 2.12. It checks DOSX.EXE compatibility but does
+not identify the BIOS automatically. See [M28.md](docs/M28.md).
 
-## Project layout
+## Features
 
-| Path | Contents |
-| --- | --- |
-| `driver/SRC/` | 286 assembly display implementation and resource/link definitions |
-| `driver/BUILD.BAT` | Historical DOS build commands |
-| `helpers/` | Native startup loader, text companion and backup comparison utility sources |
-| `installer/` | OEMSETUP.INF and backup/restore scripts |
-| `build_driver.py` | Isolated, input-checked display build |
-| `docs/` | Architecture and validation summary |
-| `SOURCE-MANIFEST.json` | SHA-256 hashes of the exported files |
+- Sixteen-colour GDI drawing, including text, borders, fills, lines, bitmaps
+  and device-independent bitmaps.
+- Native EGC colour startup and restoration to DOS text on exit.
+- Software mouse cursor with drawing exclusion and save/restore support.
+- Normal Windows DOS Setup installation, including system-font selection.
+- Backup and restoration of SYSTEM.INI, WIN.INI and WIN.COM.
 
-The display filename is `EGCORDER.DRV`; its diagnostic banner still says
-0.21. Identify this candidate by its hash:
+## Help and source
 
-```text
-a6176ac56dc28e992321b7986761cdd8fa955277bfe296c9587817859810d58b
-```
+- [Installation and recovery](INSTALLATION.md)
+- [M28 patch and BIOS compatibility](docs/M28.md)
+- [Compatibility and troubleshooting](docs/COMPATIBILITY.md)
+- [Building from source](BUILDING.md)
+- [Rendering architecture](docs/ARCHITECTURE.md)
 
-## Testing and reports
+For a bug report, include the release version, computer and BIOS version,
+DOS/Windows versions, real or Standard mode, and what you were doing. Attach
+relevant EGC16.LOG lines after exiting Windows normally and a photo for
+visual defects. Remove personal information before posting logs.
 
-See [validation](docs/VALIDATION.md) for completed checks and their limits.
-Report the driver hash, DOS/Windows versions, real or Standard mode, resident
-version and the operation involved. Include a photo for visual defects and
-relevant `EGC16.LOG` lines after exiting Windows normally. Remove personal
-paths or other private details from logs before posting. Use the same
-benchmark executable and configuration for performance comparisons.
+## Licence
 
-## Licence and scope
-
-Original code and documentation: **MIT**, copyright (c) 2026 **retrogcom**.
-See [LICENSE](LICENSE). External Microsoft/Bitstream/Olivetti/AT&T software
-retains its own terms. This is an independent project, not a vendor release.
-
-This repository covers the Windows 3.0 driver only. Other EGC projects,
-including game ports and Windows 2 work, have separate scope and licensing.
+Original project code and documentation are **GPL-2.0-only**, copyright
+(c) 2026 **retrogcom**. See [LICENSE](LICENSE). Distributed modified versions
+must provide corresponding source under GPLv2; private modifications do not
+have to be published. See [third-party notices](THIRD_PARTY.md) for the
+Microsoft startup artwork and Windows resource files.

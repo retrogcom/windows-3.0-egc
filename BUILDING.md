@@ -1,55 +1,69 @@
-# Building the display driver
+# Building from source
 
-This source release does not bundle the historical toolchain, SDK/DDK
-headers, executable stub or UI artwork resources. Supply those inputs
-separately under their applicable terms. `BUILD-INPUTS.json` records exact
-relative filenames, byte counts and SHA-256 hashes; `driver/tool-inputs.json`
-and `driver/resource-inputs.json` record provenance. The recorded `work/`
-paths identify the research source locations, not downloadable directories.
+The release provides compiled DOS installation files; building is optional.
+To build them yourself, use the corresponding EGC30SRC.ZIP or this repository.
 
-## Exact display rebuild
+## Tools and external inputs
 
-1. Install Python 3 and DOSBox-X on the host computer.
-2. Prepare an input directory containing the `BIN`, `INCLUDE` and `RES`
-   trees listed in `BUILD-INPUTS.json`. Do not substitute files from a
-   different SDK/DDK revision silently.
-3. From this repository run, adjusting the three host paths:
+Install Python 3, DOSBox-X and NASM on the host computer. Supply the historical
+Windows 3.0 assembly/link/resource tools, headers and resource inputs listed
+in BUILD-INPUTS.json under their applicable terms. That manifest specifies
+relative filenames, sizes and SHA-256 hashes under BIN, INCLUDE and RES.
+HELPER-INPUTS.json specifies the helper tools and expected output hashes.
+The tools, headers, executable stub and SDK/DDK resource input files are not
+bundled with the source.
 
-```text
-python build_driver.py --inputs PATH_TO_INPUT_TREE --dosbox PATH_TO_DOSBOX_X --out NEW_BUILD_DIRECTORY
-```
+Run the commands below from the repository root. Replace each uppercase path
+placeholder with a path on your computer. Output directories must not already
+exist. All compilation takes place inside those new directories.
 
-The output directory must not already exist. The script checks every input,
-creates an isolated DOS build tree and runs `driver/BUILD.BAT`. It then checks
-`OUT/EGCBASE.DRV` against the expected SHA-256. Build logs are under `LOGS/`.
-The `C:` paths in the assembly and batch file are guest paths inside this
-isolated tree; they do not refer to the host computer's C: root.
-
-Expected output SHA-256:
+## Display driver
 
 ```text
-a6176ac56dc28e992321b7986761cdd8fa955277bfe296c9587817859810d58b
+python build_driver.py --inputs INPUT_DIRECTORY --dosbox DOSBOX_EXECUTABLE --out DISPLAY_OUTPUT
 ```
 
-This exact source/input combination has passed a byte-identical rebuild.
-The helper deliberately rejects modified output; when developing changes,
-review and update the expected-output manifest as part of that change.
-Do not treat merely updating a hash as a correctness test.
+The helper verifies inputs, runs the historical DOS build and checks the
+result against BUILD-INPUTS.json. The display binary is written as
+`DISPLAY_OUTPUT/OUT/EGCBASE.DRV`; it is named EGCORDER.DRV in the installer.
+Logs are stored under the output directory's LOGS subdirectory.
 
-## Companion sources and package limits
+Paths used inside the DOS batch file are paths in DOSBox's mounted build
+directory. They are independent of the host computer's drive layout.
 
-`helpers/EGCTEXT.ASM` and `helpers/LOGO.ASM` use the historical MASM syntax.
-`helpers/CMPINI.ASM` uses NASM syntax. `build_driver.py` builds only the display
-DLL; it does not build these helper components or assemble an installer.
-The native logo loader has a fixed 13,291-byte payload contract; changing its
-artwork requires rebuilding and validating both loader and payload.
+## Startup loaders and utilities
 
-The OEM Setup template expects EGCORDER.DRV, EGCTEXT.GR2, EGCLOGO.LGO,
-EGCLOGO.RLE, EGCPRES.TAG and the backup helper CMPINI.COM. These compiled
-files are not in this public source release. Fonts are requested from the
-user's Windows 3.0 files. Do not present the template alone as an installer.
+```text
+python build_helpers.py --inputs INPUT_DIRECTORY --dosbox DOSBOX_EXECUTABLE --nasm NASM_EXECUTABLE --out HELPER_OUTPUT
+```
 
-The full native regression and original-Windows replay harnesses depend on
-private Windows fixtures and are not included. Published validation results
-describe completed checks; this repository does not claim to include an EGC
-hardware emulator or the full test environment.
+This builds and verifies:
+
+| Output | Source |
+| --- | --- |
+| EGCTEXT.GR2 | helpers/EGCTEXT.ASM |
+| EGCLOGO.LGO | helpers/LOGO.ASM |
+| EGCLOGN.LGO | helpers/LOGONO.ASM |
+| CMPINI.COM | helpers/CMPINI.ASM |
+| M28W3.COM | compat/M28W3/M28W3.ASM and its matching contexts |
+
+The companion and startup loaders use MASM/LINK. The comparison utility and
+M28 patcher use NASM. Outputs are placed under HELPER_OUTPUT/OUT.
+The two startup loaders must be paired with their matching artwork streams
+in assets/. Changing an artwork stream requires updating and rebuilding its
+loader's payload-length definition as well.
+
+## Installer archive
+
+```text
+python package.py --driver DISPLAY_OUTPUT/OUT/EGCBASE.DRV --helpers HELPER_OUTPUT/OUT --out EGC30A2.ZIP
+```
+
+The packager verifies the compiled-file hashes, includes the Setup files,
+backup utilities, M28 instructions, both artwork variants and GPLv2 licence,
+and checks the resulting ZIP. It does not include Windows font files.
+
+The build scripts require exact release output hashes. For modified builds,
+review and update the manifests together with the relevant code and tests.
+An output hash alone is not a functional or hardware test. Distribute the
+corresponding source with modified binaries under GPLv2.

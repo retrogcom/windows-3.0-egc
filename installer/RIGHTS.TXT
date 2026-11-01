@@ -1,0 +1,14 @@
+COPYRIGHT AND LICENCE
+
+Original project code and documentation are GPL-2.0-only.
+Copyright (c) 2026 retrogcom. Full licence: LICENSE.TXT.
+Corresponding source: EGC30SRC.ZIP on the same GitHub release page.
+
+Microsoft Windows startup artwork, standard Windows UI resources and the
+historical executable stub retain their original copyright notices. They
+are not represented as original GPL-licensed artwork or Microsoft endorsement.
+The startup artwork is supplied in English and Norwegian native EGC formats.
+
+Windows, Microsoft/Bitstream fonts, the DEB resident, compiler tools, SDK/DDK
+headers and BIOS ROMs are not included. Supply those under their own terms.
+This is an independent compatibility project.

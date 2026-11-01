@@ -1,19 +1,25 @@
-# 0.21-appearance.1 ? source prerelease
+# Windows 3.0 EGC Driver 0.21-appearance.2
 
-Initial public source release of the Olivetti EGC / AT&T DEB 640x400,
-16-colour Windows 3.0 driver, under the MIT licence for original code.
+Download **EGC30A2.ZIP** for the installable 640x400, sixteen-colour driver.
+Download **EGC30SRC.ZIP** for its corresponding source code. SHA256SUMS.txt
+contains checksums for both archives.
 
-Includes the 286 renderer, shared fill/copy/text/cursor optimisations, the
-native colour-startup loader source, four-row area-fill scheduling, OEM Setup
-metadata with user-supplied Windows fonts, build instructions and exact input
-hashes. The display sources are unchanged from the byte-identically rebuilt
-appearance candidate; its diagnostic banner still reports 0.21.
+The driver package includes:
 
-**This is a source release, not an installable driver package.** Windows fonts,
-SDK/DDK binaries/resources, startup artwork, the DEB resident and disk images
-are excluded. The compiled installer remains unpublished while artwork and
-embedded-resource redistribution is resolved. See THIRD_PARTY.md and BUILDING.md.
+- EGCORDER.DRV and the text-mode companion.
+- Native English and Norwegian Windows 3.0 colour-startup artwork.
+- Normal Windows DOS Setup files and verified backup/restore helpers.
+- M28W3.COM for the M28 BIOS 1.08 DOSX compatibility corrections.
+- Installation, recovery and copyright/licence notices.
 
-The 0.21 base has M28 feedback. This later candidate still needs hardware
-qualification for the appearance/performance tradeoff. No new hardware
-benchmark, Standard-mode qualification or Windows 3.1 support is claimed.
+Windows fonts are obtained from your matching Windows 3.0 files or existing
+installation. A hard-drive source directory is supported; a floppy is optional.
+
+DOS 3.1 is tested on the M28 in both real mode and Standard mode. DOS 6.22 has
+also been used. The M28 correction must not be applied to BIOS 2.12 and does
+not identify the BIOS automatically. Read the installation and M28 instructions
+before starting Standard mode. Windows 386 Enhanced mode and Windows 3.1 are
+not supported.
+
+Original project code is GPL-2.0-only. Third-party artwork/resources retain
+their own copyright notices; see THIRD_PARTY.md. This is a prerelease.

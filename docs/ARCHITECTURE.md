@@ -21,16 +21,16 @@ Memory BITMAPs and the physical display follow separate validation paths.
 Activation probes the resident, records the entry state, allocates/maps
 resources and installs the palette before publishing an active screen.
 Failure and teardown paths retain ownership information and attempt to
-restore DOS text. Protected-mode bridges exist but do not establish hardware
-qualification of every memory-manager configuration.
+restore DOS text. Protected-mode bridges support Windows Standard mode;
+the memory manager must provide a compatible extended-memory environment.
 
 Optimisations target GDI primitives shared by Windows applications. Broad
 fills use small row bands across all planes; narrow columns keep their faster
 schedule. Copy loops select specialised row paths when their geometry and
 bounds satisfy the required checks. Text uses bounded composition strips;
 bitmap caches validate content rather than trusting a reusable segment alone.
-Cursor exclusion protects intersecting draws. There is no claimed hardware
-blitter acceleration or application-name dispatch.
+Cursor exclusion protects intersecting draws. Rendering uses CPU access to
+the planar display memory.
 
 The colour startup runs before display-driver activation, through separate
 WIN.COM components. `helpers/LOGO.ASM` handles the native EGC startup and

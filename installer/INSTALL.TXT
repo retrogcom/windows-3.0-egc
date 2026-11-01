@@ -1,0 +1,49 @@
+WINDOWS 3.0 EGC DRIVER - 640x400, 16 COLOURS
+Version 0.21-appearance.2
+
+REQUIREMENTS
+Olivetti EGC / AT&T DEB, compatible monitor, Windows 3.0, DOS 3.1 or later,
+and the original DEB resident loaded. DOS 3.1 is tested on the M28 in real
+mode and Standard mode. DOS 6.22 has also been used. Windows, fonts and the
+resident driver are not included. Enhanced mode and Windows 3.1 are unsupported.
+
+PATHS IN THESE INSTRUCTIONS
+Replace <WINDOWS> with your installed Windows directory and <DRIVER> with
+this extracted WIN16 directory, including drive letters. Do not type the
+angle brackets. Use DOS 8.3 names without spaces. Change to the correct drive
+before using CD. Run the commands from DOS, outside Windows.
+
+INSTALL
+1. Confirm Windows works with a stock display driver. Keep WIN16 together.
+2. From the Windows directory run:
+     <DRIVER>\BACKUP.BAT <DRIVER>\CMPINI.COM
+   Confirm EGCBAK contains SYSTEM.INI, WIN.INI, WIN.COM and COMPLETE.TAG.
+   Existing backups are retained. Stop after any backup error.
+3. Run SETUP. Choose Display, then Other / manufacturer-supplied disk.
+   Enter <DRIVER>. Choose the EGC entry with English or Norwegian startup.
+4. When asked for a font, enter its Windows 3.0 source directory. A folder
+   on a hard disk works; A: is optional. Use the matching edition/language.
+   Required files: VGASYS.FON, VGAFIX.FON, EGAOEM.FON and HELVB.FON.
+   Original compressed .FON files work directly. No subdirectories are searched.
+5. If asked for the EGC disk again, enter <DRIVER>. Supply the Windows font
+   directory again if requested. Confirm Complete Changes when prompted.
+6. For M28 BIOS 1.08 Standard mode, follow M28FIX.TXT before starting Windows.
+   DO NOT apply the combined M28W3 patch to BIOS 2.12 or an unverified BIOS.
+7. Reboot with the resident and normal memory configuration. Start Windows
+   from its directory with WIN /R, or WIN /S after the Standard-mode steps.
+
+Setup installs the driver and text companion, selects the system fonts,
+registers Helv and builds the colour startup into WIN.COM. Replacing only
+the display DLL does not install the startup screen.
+
+RECOVERY
+From the Windows directory, outside Windows:
+  <DRIVER>\RESTORE.BAT <DRIVER>\CMPINI.COM
+This restores SYSTEM.INI, WIN.INI and WIN.COM together. EGCBAK is retained.
+It does not undo the DOSX patch; see M28FIX.TXT for its separate recovery.
+
+SOURCE AND LICENCE
+Corresponding source: EGC30SRC.ZIP on the same GitHub release page.
+Project: https://github.com/retrogcom/windows-3.0-egc
+Original code: GPL-2.0-only, copyright (c) 2026 retrogcom.
+Read LICENSE.TXT and RIGHTS.TXT. There is no warranty.

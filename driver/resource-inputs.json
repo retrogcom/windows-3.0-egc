@@ -2,232 +2,232 @@
   "artwork": [
     {
       "path": "RES/bang.ico",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/bang.ico",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/bang.ico",
       "sha256": "0b44b1ec8233861931d41d88115b440cd529cec3afc503c43238cca19101cc74"
     },
     {
       "path": "RES/combo.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/combo.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/combo.bmp",
       "sha256": "88aa10d33b9176948b99bb0a789ee98f51b5ac8b91108a635e8a2a8c3ab0826b"
     },
     {
       "path": "RES/cross.cur",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/cross.cur",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/cross.cur",
       "sha256": "eaa64125e86105329a1f3ec5e8dfaf8cd88023184a49939419ee665e9d60ce5c"
     },
     {
       "path": "RES/down.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/down.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/down.bmp",
       "sha256": "578a7ad98686b98964df39f67d538e87a4137125703cdf132e8750e04ffa0ff9"
     },
     {
       "path": "RES/downd.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/downd.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/downd.bmp",
       "sha256": "f3dc2bf3161a88e46161e1f9644e6478c071bfbb24515c59b3944974a9cd9cb0"
     },
     {
       "path": "RES/hand.ico",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/hand.ico",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/hand.ico",
       "sha256": "5a7436c07905dcc1e621562bbe7b710fc50104709d83a8485a046c886dd8d3f5"
     },
     {
       "path": "RES/ibeam.cur",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/ibeam.cur",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/ibeam.cur",
       "sha256": "cc0e691a42a45c536860c2ed20124d01479f5e46be78f5d81fc03d7cac4dfa3d"
     },
     {
       "path": "RES/icon.cur",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/icon.cur",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/icon.cur",
       "sha256": "559995103a6f707d1bc9d96ad6db75fce4ef8ffc7cbad88326c1f25426b1966a"
     },
     {
       "path": "RES/left.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/left.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/left.bmp",
       "sha256": "0e1dd90f8f6f8980d1f315a32b8aca6db9f6f2de9eb2421f97096f03f23bcd82"
     },
     {
       "path": "RES/leftd.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/leftd.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/leftd.bmp",
       "sha256": "35ad548acf35f6ad7685ac5d669218b73b8eae38392b753de643b964296d8012"
     },
     {
       "path": "RES/max.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/max.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/max.bmp",
       "sha256": "b13c6e563e7b3c5b674a3adfa7dbe2a5bc982a34ddffb154a1487d7ec96d496f"
     },
     {
       "path": "RES/maxd.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/maxd.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/maxd.bmp",
       "sha256": "477e330ebef54d063d64f24c8c25067ccb3a6087b1289ebe9241c8fb59917c28"
     },
     {
       "path": "RES/min.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/min.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/min.bmp",
       "sha256": "dd3b6ff5613e7966a1a302d6d45aac6185cbdd7b710539870c8670ffa16779d1"
     },
     {
       "path": "RES/mind.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/mind.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/mind.bmp",
       "sha256": "c75e0594c8e960d8fe9d00b039a5e15c7a9a1333a2ffcf58658040f579500264"
     },
     {
       "path": "RES/mnarrow.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/mnarrow.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/mnarrow.bmp",
       "sha256": "906b206ecb4a15c5ecbb55b6a9796c53d2e1886fa79b9404553023035babc557"
     },
     {
       "path": "RES/normal.cur",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/normal.cur",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/normal.cur",
       "sha256": "09954aac641a28e50680d584193cbb2552ed001234f1af38f5faa049ed287fe4"
     },
     {
       "path": "RES/note.ico",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/note.ico",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/note.ico",
       "sha256": "69c4f09547c7fa590e88c2fb80c9d2e392e27296cae57d352290717575fa09f3"
     },
     {
       "path": "RES/obtncorn.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/obtncorn.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/obtncorn.bmp",
       "sha256": "aa7cb4924a98e51b38148009d0b1bf11ec588fd4549217717ad1c48ecaedcc88"
     },
     {
       "path": "RES/obtsize.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/obtsize.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/obtsize.bmp",
       "sha256": "4ab27b902fa41fdb2afdc10e0ae4fb3f63ce1907d9fd01bd998d7480939bcae6"
     },
     {
       "path": "RES/obutton.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/obutton.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/obutton.bmp",
       "sha256": "520a168ffc21459914d471efb3cbf335224f5e032655247d59af7bef1515b8c4"
     },
     {
       "path": "RES/ocheck.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/ocheck.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/ocheck.bmp",
       "sha256": "e65d52c3e7408bf2ad1d23da7430a7d01a9b15db77070e45361ccb9792dfe26a"
     },
     {
       "path": "RES/oclose.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/oclose.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/oclose.bmp",
       "sha256": "504f0f67bfcfdf6a0dfbab33fe763e4cd65b1dd4bde6fb9d8c18aa7ca272ede9"
     },
     {
       "path": "RES/odown.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/odown.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/odown.bmp",
       "sha256": "04f15bf008d3727a5e6bc6df192109e02b0db96e8c91438c0fb49f8dcb6d4e44"
     },
     {
       "path": "RES/oleft.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/oleft.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/oleft.bmp",
       "sha256": "df8785d13347014cdb486cba7a6711c46782e481d9462ad2e31572ca660c8770"
     },
     {
       "path": "RES/ored.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/ored.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/ored.bmp",
       "sha256": "2dbd031309ceec1307bc857cc338d0c4908553ccf5da62b6791428bc0dff3b4e"
     },
     {
       "path": "RES/orest.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/orest.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/orest.bmp",
       "sha256": "638a30446ba7c86113ba986aed5f0a1d923c173c9f49a48ec516a570308d24c9"
     },
     {
       "path": "RES/oright.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/oright.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/oright.bmp",
       "sha256": "90efef3cd3ef7db65a13cec6e9f907bddd32470bbc39bbfed3392b7af3d44b9b"
     },
     {
       "path": "RES/osize.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/osize.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/osize.bmp",
       "sha256": "08607d0908e8ab1179a3597aff6b5a4d4625420251cfe0ce00831f637af61dfa"
     },
     {
       "path": "RES/oup.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/oup.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/oup.bmp",
       "sha256": "3223b4a158248a37dfe125116894ec77058ac56ae3850f7670b80c5a48b1a686"
     },
     {
       "path": "RES/ozoom.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/ozoom.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/ozoom.bmp",
       "sha256": "e9af7fa58677e2adec74548b0aa5daab6294dac782604643a9f7e427772b240e"
     },
     {
       "path": "RES/ques.ico",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/ques.ico",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/ques.ico",
       "sha256": "e5f43d278b0ea55104bde692d1d12de2bea6f32dccd4ea580f54770163572d9d"
     },
     {
       "path": "RES/restore.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/restore.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/restore.bmp",
       "sha256": "3d5b75506ac0d1fd1b1ee6d918bc13632ef9141872a8a467b2774e6ee5e77c4a"
     },
     {
       "path": "RES/restored.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/restored.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/restored.bmp",
       "sha256": "af7ceb55a091fde7eab194b1a68e41fee58826b8413a323a2b8b84e0e6015663"
     },
     {
       "path": "RES/right.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/right.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/right.bmp",
       "sha256": "6fdedff9c99e588bd113136562975106890ccc87e43477b3c1cd3ac5044c2ca1"
     },
     {
       "path": "RES/rightd.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/rightd.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/rightd.bmp",
       "sha256": "253eab9ddfdabebdfd0f59ddfc28a284a47db9bfd7abe7746c741df0473b374e"
     },
     {
       "path": "RES/sample.ico",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/sample.ico",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/sample.ico",
       "sha256": "1872b2ca59ab02ec70fa114116ecf498b8af3f306f9e603c56cd45a5b40cfe63"
     },
     {
       "path": "RES/size.cur",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/size.cur",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/size.cur",
       "sha256": "87a51732613ad084b1ae67ee5dc537ee0fb32142f11e4a420dbe814b0b8ac3c4"
     },
     {
       "path": "RES/sizenesw.cur",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/sizenesw.cur",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/sizenesw.cur",
       "sha256": "b5d098d5b91dcb4f730ade7e10e740aa3aae827449d69d02f7777346bab37162"
     },
     {
       "path": "RES/sizens.cur",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/sizens.cur",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/sizens.cur",
       "sha256": "d0d72be9e434cc72285efc02cfd9be848eb884faf322608e99a2e0c95666d04c"
     },
     {
       "path": "RES/sizenwse.cur",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/sizenwse.cur",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/sizenwse.cur",
       "sha256": "a004c1d98490c2b287032f7552d30fc87279125f36f5f7440758b99b487b425d"
     },
     {
       "path": "RES/sizewe.cur",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/sizewe.cur",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/sizewe.cur",
       "sha256": "8522612e9b770013c5eea3e8d954961800d5c336d56aad96235df9027c9140d7"
     },
     {
       "path": "RES/sysmenu.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/sysmenu.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/sysmenu.bmp",
       "sha256": "fc98045be0289d1aa9bed21318e1366f7b1591807e73cef5a9b295520f8745ac"
     },
     {
       "path": "RES/up.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/up.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/up.bmp",
       "sha256": "8a0e4627894f19623bfd85e1bcc492c96b132e22f40f972e8e9e30946021e2c2"
     },
     {
       "path": "RES/up.cur",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/up.cur",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/up.cur",
       "sha256": "6b2fe9f4ba8b445e2f197ec7c2a8324a03f4367377f38165b570ea5d99d76f1e"
     },
     {
       "path": "RES/upd.bmp",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-high/upd.bmp",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-high/upd.bmp",
       "sha256": "f375b7f064b30bb9b55beb86a8a02f42afc9c44d7e33e762a3af32ff2cff5b7f"
     },
     {
       "path": "RES/wait.cur",
-      "source": "work/windows30-build-prep/DISPLAY/4PLANE/rc-med/wait.cur",
+      "source": "Windows-3.0-DDK/DISPLAY/4PLANE/rc-med/wait.cur",
       "sha256": "387224c908e6fb24232fd85829924d8b6ea8bf95aa7248e0f124306b79229e21"
     }
   ],
@@ -353,8 +353,8 @@
       "sha256": "62866fbc0ebd9b6779d55cc1fa899f33d82b971543252276bd9ecf4d450c8a6d"
     }
   ],
-  "font_profile": "Windows 3.0 DDK medium-resolution Terminal/Courier/Helv defaults; system font selected at installation, pending runtime media identification.",
-  "status": "Sixteen-colour desktop candidate: fixed canonical palette, exact grey/teal/navy system colours, inherited medium font resources. Runtime qualification pending.",
+  "font_profile": "Windows 3.0 DDK medium-resolution Terminal/Courier/Helv defaults; system font selected by Windows Setup from user-supplied Windows 3.0 files.",
+  "status": "640x400 sixteen-colour profile with a fixed palette and exact grey/teal/navy system colours.",
   "canonical_palette": [
     [
       0,

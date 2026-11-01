@@ -1,13 +1,14 @@
-; Olivetti EGC Windows 3.0 sixteen-colour test package 0.21
+; Olivetti EGC Windows 3.0 sixteen-colour package 0.21-appearance.2
 ; Explicit stock Olivetti font selection; original 96x72 driver metrics retained.
 [disks]
-a = .,"Olivetti EGC 16-colour Windows 3.0 test 0.21",EGCPRES.TAG
+a = .,"Olivetti EGC 16-colour Windows 3.0 0.21-appearance.2",EGCPRES.TAG
 b = .,"Windows 3.0 font VGASYS.FON - enter its source folder",VGASYS.FON
 c = .,"Windows 3.0 font VGAFIX.FON - enter its source folder",VGAFIX.FON
 d = .,"Windows 3.0 font EGAOEM.FON - enter its source folder",EGAOEM.FON
 e = .,"Windows 3.0 font HELVB.FON - enter its source folder",HELVB.FON
 [display]
-egc16 = a:EGCORDER.DRV,"Olivetti EGC 640x400 16 colors (appearance candidate)","120,96,72",a:EGCTEXT.GR2,a:EGCLOGO.LGO,,,,a:EGCLOGO.RLE
+egc16 = a:EGCORDER.DRV,"Olivetti EGC 640x400 16 colors (English startup)","120,96,72",a:EGCTEXT.GR2,a:EGCLOGO.LGO,,,,a:EGCLOGO.RLE
+egc16no = a:EGCORDER.DRV,"Olivetti EGC 640x400 16 colors (Norwegian startup)","120,96,72",a:EGCTEXT.GR2,a:EGCLOGN.LGO,,,,a:EGCLOGN.RLE
 [sysfonts]
 b:VGASYS.FON,"Olivetti stock System font","120,96,72"
 [fixedfonts]

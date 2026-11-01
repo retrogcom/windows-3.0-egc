@@ -1,25 +1,29 @@
-# External inputs and licence scope
+# Third-party notices
 
-The MIT licence covers the original source and documentation in this
-repository. It does not relicense the third-party inputs used to build or
-run the driver.
+Original driver, loader, patcher, helper and installer code is licensed under
+**GPL-2.0-only**, copyright (c) 2026 retrogcom. The same licence covers the
+original project documentation. The full terms are in LICENSE.
 
-| Input | Role | Distributed here? |
-| --- | --- | --- |
-| Microsoft Windows 3.0 | Target operating system and original Setup | No |
-| VGASYS.FON, VGAFIX.FON, EGAOEM.FON, HELVB.FON | System, fixed, OEM and Helv raster fonts | No; Setup uses user-supplied files |
-| Windows SDK/DDK tools and headers | Assembly, linking and resource compilation | No; required input hashes are supplied |
-| Historical WINSTUB.EXE and DDK UI resources | Executable stub, cursors, icons and control bitmaps | No; required input hashes are supplied |
-| Converted Windows startup artwork | Native EGC colour-startup payload | No |
-| Original Olivetti/AT&T DEB resident | Hardware mode and palette services | No |
-| DOSBox-X and NASM | Host-side development tools | No |
+The following components have separate provenance and are not relicensed as
+original project code:
 
-The local compiled candidate incorporates some of the inputs above. Public
-redistribution permission for its startup artwork and embedded historical
-resources has not been established. The first public prerelease therefore
-contains source and installation metadata only. A ready-to-install binary
-release requires appropriate permissions, replacement resources, or a tested
-local assembly process that obtains those resources from the user's files.
+- Microsoft Windows 3.0 startup artwork, with its displayed copyright notice.
+  The package provides native EGC encodings of the English and Norwegian
+  artwork and matching previews.
+- Standard Windows display UI resources and the executable stub supplied with
+  the historical Windows development tools and embedded in the display DLL.
+- Short Windows DOSX instruction contexts used by the compatibility patcher
+  to identify the supported routines.
 
-Functional API declarations, resource identifiers and file references do not
-include the referenced third-party binaries. No vendor endorsement is implied.
+Windows 3.0 itself, Microsoft/Bitstream font files, the original DEB resident,
+compiler executables, SDK/DDK headers and BIOS ROM images are not included.
+Supply those dependencies under their applicable terms. Font files are read
+from the user's Windows files by Setup.
+
+Microsoft, Windows, Olivetti and AT&T names identify compatibility and
+attribution. This is an independent project and does not imply vendor
+endorsement. Existing third-party copyright notices are retained.
+
+The GPL version selected for original project code is version 2 only, not
+"version 2 or any later version". Earlier copies retain the licence under
+which they were supplied; removing a download does not revoke that grant.

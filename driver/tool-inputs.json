@@ -1,56 +1,56 @@
 [
   {
-    "source": "work/windows30-build-prep/BIN/MASM.EXE",
+    "source": "Windows-3.0-DDK/BIN/MASM.EXE",
     "destination": "BIN/MASM.EXE",
     "sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f"
   },
   {
-    "source": "work/windows30-build-prep/BIN/LINK.EXE",
+    "source": "Windows-3.0-DDK/BIN/LINK.EXE",
     "destination": "BIN/LINK.EXE",
     "sha256": "f8609d3e72dfc1c1e6bcfed52cd1f649baffc21f23a0917bddbd7933b33bfa0b"
   },
   {
-    "source": "work/windows30-build-prep/BIN/RC.EXE",
+    "source": "Windows-3.0-DDK/BIN/RC.EXE",
     "destination": "BIN/RC.EXE",
     "sha256": "2eee20462c1c26b8f24a2472e8ec7a68b6e4d173b555b6168cb3b868d45eaf5e"
   },
   {
-    "source": "work/windows30-build-prep/BIN/RCPP.EXE",
+    "source": "Windows-3.0-DDK/BIN/RCPP.EXE",
     "destination": "BIN/RCPP.EXE",
     "sha256": "f7fba2e6f2fa885975b01061403895a262cee1c70b33e4d1af0e1f57281fd4b5"
   },
   {
-    "source": "work/windows30-build-prep/BIN/RCPP.ERR",
+    "source": "Windows-3.0-DDK/BIN/RCPP.ERR",
     "destination": "BIN/RCPP.ERR",
     "sha256": "53c4d172d684080c45c1b94f5eeaa7c514ce0147aa2fd2d52cadc29a04671217"
   },
   {
-    "source": "work/windows30-build-prep/BIN/MAPSYM.EXE",
+    "source": "Windows-3.0-DDK/BIN/MAPSYM.EXE",
     "destination": "BIN/MAPSYM.EXE",
     "sha256": "53faa83f3a9c0f012d97accdb3b73462234e9fb15c11d508b946aca53229bd3f"
   },
   {
-    "source": "work/windows30-build-prep/BIN/WINSTUB.EXE",
+    "source": "Windows-3.0-DDK/BIN/WINSTUB.EXE",
     "destination": "BIN/WINSTUB.EXE",
     "sha256": "7fb9c1c6a87ae28d4db1b7abb8b51a651221986cdb3de59cb3e153c3425e847a"
   },
   {
-    "source": "work/windows30-build-prep/INCLUDE/CMACROS.INC",
+    "source": "Windows-3.0-DDK/INCLUDE/CMACROS.INC",
     "destination": "INCLUDE/CMACROS.INC",
     "sha256": "7804481d5684f336d9f6dca092827ead721d4bd014621fc026f07bac2a5dad2d"
   },
   {
-    "source": "work/windows30-build-prep/INCLUDE/gdidefs.inc",
+    "source": "Windows-3.0-DDK/INCLUDE/gdidefs.inc",
     "destination": "INCLUDE/gdidefs.inc",
     "sha256": "9d4f84272c289986e6274bbc874c6fcbd8d198ed6d2a0752227c49181b531f0a"
   },
   {
-    "source": "work/windows30-build-prep/INCLUDE/int31.inc",
+    "source": "Windows-3.0-DDK/INCLUDE/int31.inc",
     "destination": "INCLUDE/int31.inc",
     "sha256": "0de2d446c1e62cb28cd0266341cb5b7a25b834b6f4336f5619d6c58fe436511b"
   },
   {
-    "source": "work/windows30-build-prep/INCLUDE/WINDOWS.H",
+    "source": "Windows-3.0-DDK/INCLUDE/WINDOWS.H",
     "destination": "INCLUDE/WINDOWS.H",
     "sha256": "e198f5bf0b07543e871a33b4359b7b6ba1cb0fa3ce95fc5c0291f96447cc853b"
   }

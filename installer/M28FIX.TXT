@@ -1,0 +1,33 @@
+M28 STANDARD-MODE COMPATIBILITY - M28W3 1.3
+
+For Olivetti M28 / AT&T PC 6310 BIOS 1.08 only. DO NOT apply this combined
+correction to BIOS 2.12 or an unverified BIOS. The utility checks DOSX.EXE;
+it does not identify the BIOS. Real-mode Windows does not use DOSX.EXE.
+
+Replace <WINDOWS> and <DRIVER> with your Windows and extracted WIN16 paths.
+Run outside Windows. Select the Windows drive, then:
+  CD <WINDOWS>\SYSTEM
+  <DRIVER>\M28W3.COM /C
+
+Both routines must be accepted. A refusal leaves the file unchanged. Stop
+on a refusal; do not apply fixed offsets manually. If BIOS 1.08 is verified:
+  <DRIVER>\M28W3.COM
+
+Continue only after success or an already-patched message. Start WIN /S from
+the main Windows directory with the resident and normal memory manager loaded.
+Use installed, uncompressed DOSX.EXE, not its compressed source-media file.
+
+The two corrections fix the BIOS return frame and preserve ES:DI across
+the EGC mode query during native colour startup. The utility writes and
+rereads a temporary file before replacement. It preserves file length,
+timestamps and attributes and keeps the original as DOSX.B13.
+
+If DOSX.B13 or DOSX.NEW already exists when a change is needed, it refuses.
+Keep backups and investigate incomplete temporary files before retrying.
+It preserves any older DOSX.M28. Already-patched files need no changes.
+
+UNDO, outside Windows from its SYSTEM directory:
+  COPY /B DOSX.B13 DOSX.EXE
+Confirm replacement if asked. This restores the state before this patch.
+Keep the backup until Windows works. RESTORE.BAT separately restores the
+display configuration and WIN.COM; it does not restore DOSX automatically.
