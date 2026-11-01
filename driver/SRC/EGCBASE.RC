@@ -1,0 +1,65 @@
+/* EGC sixteen-colour desktop candidate: Windows 3.0 rc-high bitmaps matched to VGASYS; original cursors/icons. */
+
+
+#define OEMRESOURCE
+#include "windows.h"
+
+
+OCR_NORMAL	    cursor	PRELOAD FIXED	"C:\\RES\\normal.cur"
+OCR_WAIT	    cursor	PRELOAD FIXED	"C:\\RES\\wait.cur"
+OCR_SIZENWSE	    cursor	PRELOAD 	"C:\\RES\\sizenwse.cur"
+OCR_SIZENESW	    cursor	PRELOAD 	"C:\\RES\\sizenesw.cur"
+OCR_SIZEWE	    cursor	PRELOAD 	"C:\\RES\\sizewe.cur"
+OCR_SIZENS	    cursor	PRELOAD 	"C:\\RES\\sizens.cur"
+OCR_IBEAM	    cursor	PRELOAD 	"C:\\RES\\ibeam.cur"
+OCR_UP		    cursor	PRELOAD 	"C:\\RES\\up.cur"
+OCR_ICON	    cursor	PRELOAD 	"C:\\RES\\icon.cur"
+OCR_CROSS	    cursor			"C:\\RES\\cross.cur"
+OCR_SIZE	    cursor			"C:\\RES\\size.cur"
+
+OIC_HAND	    icon	PRELOAD 	"C:\\RES\\hand.ico"
+OIC_QUES	    icon	PRELOAD 	"C:\\RES\\ques.ico"
+OIC_BANG	    icon	PRELOAD 	"C:\\RES\\bang.ico"
+OIC_NOTE	    icon	PRELOAD 	"C:\\RES\\note.ico"
+OIC_SAMPLE	    icon			"C:\\RES\\sample.ico"
+
+OBM_OLD_RESTORE     bitmap			"C:\\RES\\orest.bmp"
+OBM_OLD_REDUCE	    bitmap			"C:\\RES\\ored.bmp"
+OBM_OLD_ZOOM	    bitmap			"C:\\RES\\ozoom.bmp"
+OBM_OLD_RGARROW     bitmap			"C:\\RES\\oright.bmp"
+OBM_OLD_LFARROW     bitmap			"C:\\RES\\oleft.bmp"
+OBM_OLD_UPARROW     bitmap			"C:\\RES\\oup.bmp"
+OBM_OLD_DNARROW     bitmap			"C:\\RES\\odown.bmp"
+OBM_OLD_CLOSE	    bitmap			"C:\\RES\\oclose.bmp"
+
+OBM_RESTORE	    bitmap	PRELOAD 	"C:\\RES\\restore.bmp"
+OBM_RESTORED	    bitmap	PRELOAD 	"C:\\RES\\restored.bmp"
+OBM_REDUCE	    bitmap	PRELOAD 	"C:\\RES\\min.bmp"
+OBM_REDUCED	    bitmap	PRELOAD 	"C:\\RES\\mind.bmp"
+OBM_ZOOM	    bitmap	PRELOAD 	"C:\\RES\\max.bmp"
+OBM_ZOOMD	    bitmap	PRELOAD 	"C:\\RES\\maxd.bmp"
+OBM_RGARROW	    bitmap	PRELOAD 	"C:\\RES\\right.bmp"
+OBM_RGARROWD	    bitmap	PRELOAD 	"C:\\RES\\rightd.bmp"
+OBM_LFARROW	    bitmap	PRELOAD 	"C:\\RES\\left.bmp"
+OBM_LFARROWD	    bitmap	PRELOAD 	"C:\\RES\\leftd.bmp"
+OBM_UPARROW	    bitmap	PRELOAD 	"C:\\RES\\up.bmp"
+OBM_UPARROWD	    bitmap	PRELOAD 	"C:\\RES\\upd.bmp"
+OBM_DNARROW	    bitmap	PRELOAD 	"C:\\RES\\down.bmp"
+OBM_DNARROWD	    bitmap	PRELOAD 	"C:\\RES\\downd.bmp"
+OBM_CLOSE	    bitmap	PRELOAD 	"C:\\RES\\sysmenu.bmp"
+OBM_CHECK	    bitmap	PRELOAD 	"C:\\RES\\ocheck.bmp"
+OBM_BTSIZE	    bitmap	PRELOAD 	"C:\\RES\\obtsize.bmp"
+OBM_SIZE	    bitmap	PRELOAD 	"C:\\RES\\osize.bmp"
+OBM_CHECKBOXES	    bitmap	PRELOAD 	"C:\\RES\\obutton.bmp"
+OBM_BTNCORNERS	    bitmap	PRELOAD 	"C:\\RES\\obtncorn.bmp"
+OBM_COMBO	    bitmap	PRELOAD 	"C:\\RES\\combo.bmp"
+OBM_MNARROW	    bitmap	PRELOAD 	"C:\\RES\\mnarrow.bmp"
+
+1		    oembin	PRELOAD 	"C:\\RES\\config.bin"
+fonts		    oembin	PRELOAD 	"C:\\RES\\fonts.bin"
+2		    oembin			"C:\\RES\\colortab.bin"
+
+1 RCDATA
+BEGIN
+    "EGC16 desktop candidate; Enable operational; no hardware qualification\0"
+END

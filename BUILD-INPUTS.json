@@ -1,0 +1,305 @@
+{
+  "expected_driver_sha256": "a6176ac56dc28e992321b7986761cdd8fa955277bfe296c9587817859810d58b",
+  "inputs": [
+    {
+      "path": "BIN/LINK.EXE",
+      "bytes": 117001,
+      "sha256": "f8609d3e72dfc1c1e6bcfed52cd1f649baffc21f23a0917bddbd7933b33bfa0b"
+    },
+    {
+      "path": "BIN/MAPSYM.EXE",
+      "bytes": 33529,
+      "sha256": "53faa83f3a9c0f012d97accdb3b73462234e9fb15c11d508b946aca53229bd3f"
+    },
+    {
+      "path": "BIN/MASM.EXE",
+      "bytes": 110703,
+      "sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f"
+    },
+    {
+      "path": "BIN/RC.EXE",
+      "bytes": 57805,
+      "sha256": "2eee20462c1c26b8f24a2472e8ec7a68b6e4d173b555b6168cb3b868d45eaf5e"
+    },
+    {
+      "path": "BIN/RCPP.ERR",
+      "bytes": 14393,
+      "sha256": "53c4d172d684080c45c1b94f5eeaa7c514ce0147aa2fd2d52cadc29a04671217"
+    },
+    {
+      "path": "BIN/RCPP.EXE",
+      "bytes": 129907,
+      "sha256": "f7fba2e6f2fa885975b01061403895a262cee1c70b33e4d1af0e1f57281fd4b5"
+    },
+    {
+      "path": "BIN/WINSTUB.EXE",
+      "bytes": 610,
+      "sha256": "7fb9c1c6a87ae28d4db1b7abb8b51a651221986cdb3de59cb3e153c3425e847a"
+    },
+    {
+      "path": "INCLUDE/CMACROS.INC",
+      "bytes": 17114,
+      "sha256": "7804481d5684f336d9f6dca092827ead721d4bd014621fc026f07bac2a5dad2d"
+    },
+    {
+      "path": "INCLUDE/gdidefs.inc",
+      "bytes": 40792,
+      "sha256": "9d4f84272c289986e6274bbc874c6fcbd8d198ed6d2a0752227c49181b531f0a"
+    },
+    {
+      "path": "INCLUDE/int31.inc",
+      "bytes": 3092,
+      "sha256": "0de2d446c1e62cb28cd0266341cb5b7a25b834b6f4336f5619d6c58fe436511b"
+    },
+    {
+      "path": "INCLUDE/WINDOWS.H",
+      "bytes": 108580,
+      "sha256": "e198f5bf0b07543e871a33b4359b7b6ba1cb0fa3ce95fc5c0291f96447cc853b"
+    },
+    {
+      "path": "RES/bang.ico",
+      "bytes": 1846,
+      "sha256": "0b44b1ec8233861931d41d88115b440cd529cec3afc503c43238cca19101cc74"
+    },
+    {
+      "path": "RES/COLORTAB.BIN",
+      "bytes": 66,
+      "sha256": "fbc6d51140cc79bc0fdd3fb4bbabf83f6d66ac15dab55e0d850c9a8cd3608db0"
+    },
+    {
+      "path": "RES/combo.bmp",
+      "bytes": 98,
+      "sha256": "88aa10d33b9176948b99bb0a789ee98f51b5ac8b91108a635e8a2a8c3ab0826b"
+    },
+    {
+      "path": "RES/CONFIG.BIN",
+      "bytes": 98,
+      "sha256": "e5f7b477096b7ad09126181e98eb50ee3accdebce8e9b98bb6b8a1e844910050"
+    },
+    {
+      "path": "RES/cross.cur",
+      "bytes": 326,
+      "sha256": "eaa64125e86105329a1f3ec5e8dfaf8cd88023184a49939419ee665e9d60ce5c"
+    },
+    {
+      "path": "RES/down.bmp",
+      "bytes": 278,
+      "sha256": "578a7ad98686b98964df39f67d538e87a4137125703cdf132e8750e04ffa0ff9"
+    },
+    {
+      "path": "RES/downd.bmp",
+      "bytes": 322,
+      "sha256": "f3dc2bf3161a88e46161e1f9644e6478c071bfbb24515c59b3944974a9cd9cb0"
+    },
+    {
+      "path": "RES/FONTS.BIN",
+      "bytes": 76,
+      "sha256": "62866fbc0ebd9b6779d55cc1fa899f33d82b971543252276bd9ecf4d450c8a6d"
+    },
+    {
+      "path": "RES/hand.ico",
+      "bytes": 1846,
+      "sha256": "5a7436c07905dcc1e621562bbe7b710fc50104709d83a8485a046c886dd8d3f5"
+    },
+    {
+      "path": "RES/ibeam.cur",
+      "bytes": 326,
+      "sha256": "cc0e691a42a45c536860c2ed20124d01479f5e46be78f5d81fc03d7cac4dfa3d"
+    },
+    {
+      "path": "RES/icon.cur",
+      "bytes": 326,
+      "sha256": "559995103a6f707d1bc9d96ad6db75fce4ef8ffc7cbad88326c1f25426b1966a"
+    },
+    {
+      "path": "RES/left.bmp",
+      "bytes": 278,
+      "sha256": "0e1dd90f8f6f8980d1f315a32b8aca6db9f6f2de9eb2421f97096f03f23bcd82"
+    },
+    {
+      "path": "RES/leftd.bmp",
+      "bytes": 278,
+      "sha256": "35ad548acf35f6ad7685ac5d669218b73b8eae38392b753de643b964296d8012"
+    },
+    {
+      "path": "RES/max.bmp",
+      "bytes": 290,
+      "sha256": "b13c6e563e7b3c5b674a3adfa7dbe2a5bc982a34ddffb154a1487d7ec96d496f"
+    },
+    {
+      "path": "RES/maxd.bmp",
+      "bytes": 334,
+      "sha256": "477e330ebef54d063d64f24c8c25067ccb3a6087b1289ebe9241c8fb59917c28"
+    },
+    {
+      "path": "RES/min.bmp",
+      "bytes": 290,
+      "sha256": "dd3b6ff5613e7966a1a302d6d45aac6185cbdd7b710539870c8670ffa16779d1"
+    },
+    {
+      "path": "RES/mind.bmp",
+      "bytes": 334,
+      "sha256": "c75e0594c8e960d8fe9d00b039a5e15c7a9a1333a2ffcf58658040f579500264"
+    },
+    {
+      "path": "RES/mnarrow.bmp",
+      "bytes": 106,
+      "sha256": "906b206ecb4a15c5ecbb55b6a9796c53d2e1886fa79b9404553023035babc557"
+    },
+    {
+      "path": "RES/normal.cur",
+      "bytes": 326,
+      "sha256": "09954aac641a28e50680d584193cbb2552ed001234f1af38f5faa049ed287fe4"
+    },
+    {
+      "path": "RES/note.ico",
+      "bytes": 1846,
+      "sha256": "69c4f09547c7fa590e88c2fb80c9d2e392e27296cae57d352290717575fa09f3"
+    },
+    {
+      "path": "RES/obtncorn.bmp",
+      "bytes": 72,
+      "sha256": "aa7cb4924a98e51b38148009d0b1bf11ec588fd4549217717ad1c48ecaedcc88"
+    },
+    {
+      "path": "RES/obtsize.bmp",
+      "bytes": 92,
+      "sha256": "4ab27b902fa41fdb2afdc10e0ae4fb3f63ce1907d9fd01bd998d7480939bcae6"
+    },
+    {
+      "path": "RES/obutton.bmp",
+      "bytes": 344,
+      "sha256": "520a168ffc21459914d471efb3cbf335224f5e032655247d59af7bef1515b8c4"
+    },
+    {
+      "path": "RES/ocheck.bmp",
+      "bytes": 88,
+      "sha256": "e65d52c3e7408bf2ad1d23da7430a7d01a9b15db77070e45361ccb9792dfe26a"
+    },
+    {
+      "path": "RES/oclose.bmp",
+      "bytes": 214,
+      "sha256": "504f0f67bfcfdf6a0dfbab33fe763e4cd65b1dd4bde6fb9d8c18aa7ca272ede9"
+    },
+    {
+      "path": "RES/odown.bmp",
+      "bytes": 92,
+      "sha256": "04f15bf008d3727a5e6bc6df192109e02b0db96e8c91438c0fb49f8dcb6d4e44"
+    },
+    {
+      "path": "RES/oleft.bmp",
+      "bytes": 92,
+      "sha256": "df8785d13347014cdb486cba7a6711c46782e481d9462ad2e31572ca660c8770"
+    },
+    {
+      "path": "RES/ored.bmp",
+      "bytes": 108,
+      "sha256": "2dbd031309ceec1307bc857cc338d0c4908553ccf5da62b6791428bc0dff3b4e"
+    },
+    {
+      "path": "RES/orest.bmp",
+      "bytes": 108,
+      "sha256": "638a30446ba7c86113ba986aed5f0a1d923c173c9f49a48ec516a570308d24c9"
+    },
+    {
+      "path": "RES/oright.bmp",
+      "bytes": 92,
+      "sha256": "90efef3cd3ef7db65a13cec6e9f907bddd32470bbc39bbfed3392b7af3d44b9b"
+    },
+    {
+      "path": "RES/osize.bmp",
+      "bytes": 88,
+      "sha256": "08607d0908e8ab1179a3597aff6b5a4d4625420251cfe0ce00831f637af61dfa"
+    },
+    {
+      "path": "RES/oup.bmp",
+      "bytes": 92,
+      "sha256": "3223b4a158248a37dfe125116894ec77058ac56ae3850f7670b80c5a48b1a686"
+    },
+    {
+      "path": "RES/ozoom.bmp",
+      "bytes": 108,
+      "sha256": "e9af7fa58677e2adec74548b0aa5daab6294dac782604643a9f7e427772b240e"
+    },
+    {
+      "path": "RES/ques.ico",
+      "bytes": 1846,
+      "sha256": "e5f43d278b0ea55104bde692d1d12de2bea6f32dccd4ea580f54770163572d9d"
+    },
+    {
+      "path": "RES/restore.bmp",
+      "bytes": 290,
+      "sha256": "3d5b75506ac0d1fd1b1ee6d918bc13632ef9141872a8a467b2774e6ee5e77c4a"
+    },
+    {
+      "path": "RES/restored.bmp",
+      "bytes": 334,
+      "sha256": "af7ceb55a091fde7eab194b1a68e41fee58826b8413a323a2b8b84e0e6015663"
+    },
+    {
+      "path": "RES/right.bmp",
+      "bytes": 278,
+      "sha256": "6fdedff9c99e588bd113136562975106890ccc87e43477b3c1cd3ac5044c2ca1"
+    },
+    {
+      "path": "RES/rightd.bmp",
+      "bytes": 278,
+      "sha256": "253eab9ddfdabebdfd0f59ddfc28a284a47db9bfd7abe7746c741df0473b374e"
+    },
+    {
+      "path": "RES/sample.ico",
+      "bytes": 1094,
+      "sha256": "1872b2ca59ab02ec70fa114116ecf498b8af3f306f9e603c56cd45a5b40cfe63"
+    },
+    {
+      "path": "RES/size.cur",
+      "bytes": 326,
+      "sha256": "87a51732613ad084b1ae67ee5dc537ee0fb32142f11e4a420dbe814b0b8ac3c4"
+    },
+    {
+      "path": "RES/sizenesw.cur",
+      "bytes": 326,
+      "sha256": "b5d098d5b91dcb4f730ade7e10e740aa3aae827449d69d02f7777346bab37162"
+    },
+    {
+      "path": "RES/sizens.cur",
+      "bytes": 326,
+      "sha256": "d0d72be9e434cc72285efc02cfd9be848eb884faf322608e99a2e0c95666d04c"
+    },
+    {
+      "path": "RES/sizenwse.cur",
+      "bytes": 326,
+      "sha256": "a004c1d98490c2b287032f7552d30fc87279125f36f5f7440758b99b487b425d"
+    },
+    {
+      "path": "RES/sizewe.cur",
+      "bytes": 326,
+      "sha256": "8522612e9b770013c5eea3e8d954961800d5c336d56aad96235df9027c9140d7"
+    },
+    {
+      "path": "RES/sysmenu.bmp",
+      "bytes": 434,
+      "sha256": "fc98045be0289d1aa9bed21318e1366f7b1591807e73cef5a9b295520f8745ac"
+    },
+    {
+      "path": "RES/up.bmp",
+      "bytes": 278,
+      "sha256": "8a0e4627894f19623bfd85e1bcc492c96b132e22f40f972e8e9e30946021e2c2"
+    },
+    {
+      "path": "RES/up.cur",
+      "bytes": 326,
+      "sha256": "6b2fe9f4ba8b445e2f197ec7c2a8324a03f4367377f38165b570ea5d99d76f1e"
+    },
+    {
+      "path": "RES/upd.bmp",
+      "bytes": 278,
+      "sha256": "f375b7f064b30bb9b55beb86a8a02f42afc9c44d7e33e762a3af32ff2cff5b7f"
+    },
+    {
+      "path": "RES/wait.cur",
+      "bytes": 326,
+      "sha256": "387224c908e6fb24232fd85829924d8b6ea8bf95aa7248e0f124306b79229e21"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  ".gitattributes": {
+    "bytes": 65,
+    "sha256": "cbeb187bdacfecf01b444c7843c6c7337fa3a3593a65e068eb465b22d7476719"
+  },
+  ".gitignore": {
+    "bytes": 97,
+    "sha256": "14f7805176fcfca7fd70270c8676290a2d24af710588635e45d373da0851905d"
+  },
+  "BUILD-INPUTS.json": {
+    "bytes": 8977,
+    "sha256": "3cb6f690c20c8f849775f4f83ce1e37f6af01dc0f580414505bee2dfadda4b82"
+  },
+  "build_driver.py": {
+    "bytes": 2642,
+    "sha256": "661467981f38147511610c6a782c729916a37bfc0f07db9534f7eb1708ce6579"
+  },
+  "BUILDING.md": {
+    "bytes": 2718,
+    "sha256": "5d0766114117027d3d44dcd6d8e9d4921f5e8ec8ba94d4c29a112e6c05f3dd6c"
+  },
+  "docs/ARCHITECTURE.md": {
+    "bytes": 2256,
+    "sha256": "9039b10d6363e7a1a9cb95d0962f1dbcf8c97ea15f2b3ed1fc1a83e6eef46ef5"
+  },
+  "docs/VALIDATION.md": {
+    "bytes": 2331,
+    "sha256": "97387e5c66691399ef4881a785bc16f704dfa14f7b1258894bc2a556bf87264b"
+  },
+  "driver/BUILD.BAT": {
+    "bytes": 700,
+    "sha256": "13207b125ca8f373b42836e75c43d07e52dbe9c2160d4240cb06f49c12ce9816"
+  },
+  "driver/resource-inputs.json": {
+    "bytes": 12463,
+    "sha256": "5fbeb0b2287d12b76b3a921bebf760f88cbd6b7ceae9494ff22cac7bb76dbed9"
+  },
+  "driver/SRC/ALIAS.INC": {
+    "bytes": 15240,
+    "sha256": "1fe526652bc81b2184fb922fab42c79857e89174bda23dc9a56df3c2c14895ff"
+  },
+  "driver/SRC/AXIS.INC": {
+    "bytes": 4695,
+    "sha256": "fbe3f3c4230e438d079d6d23e0b78fc5f9fc7bc26d7ed553e952704ebfe658cc"
+  },
+  "driver/SRC/BITCACHE.INC": {
+    "bytes": 5299,
+    "sha256": "8a1a86eb31f760c3e6bb32b2ba189651b75e826641380cfdbf45f7f3153b66ec"
+  },
+  "driver/SRC/BLTCORE.INC": {
+    "bytes": 8563,
+    "sha256": "9c80c9b5f748706c498582a1f179a0d77e80214c2a5b0e1b12f0b2ac3a484b12"
+  },
+  "driver/SRC/BLTMAP.INC": {
+    "bytes": 1927,
+    "sha256": "9c4b5feff8311f93db4af9573d6e276c0571f2903e7551bfc083cddbbbdcbc74"
+  },
+  "driver/SRC/BLTRECT.INC": {
+    "bytes": 33851,
+    "sha256": "8ab569b78ee40c16db68dcbc59114cf384016bca6b090d3c32d5384b47823e41"
+  },
+  "driver/SRC/BORDER.INC": {
+    "bytes": 5802,
+    "sha256": "50e586103381f2c07861a97576d75c26f906615e5f837df09e54c8c10e8c3435"
+  },
+  "driver/SRC/COLORS16.INC": {
+    "bytes": 483,
+    "sha256": "ba9fdc75e0d7191e2b44b87c3a029aacf9073be707df890fc11e2d93a4835cb5"
+  },
+  "driver/SRC/COPY.INC": {
+    "bytes": 12590,
+    "sha256": "13ebcbe45b774db5d5c86370f25ef69a1ed2fc58500565a79eefaec54db0c5d0"
+  },
+  "driver/SRC/CURDATA.INC": {
+    "bytes": 1765,
+    "sha256": "fb25cc3c2b92fd0e621d4454196a173f1ee21656a6f5b3ac8c2289c28f666167"
+  },
+  "driver/SRC/CURSOR.INC": {
+    "bytes": 18558,
+    "sha256": "8bcf43e47e30572824752c0b04f154228421e5c998ad93773f1c11b8c0079c52"
+  },
+  "driver/SRC/DIBCONV.INC": {
+    "bytes": 18079,
+    "sha256": "90609b1751a7a2ce3e36fd6a0afe17d80847ea09c394faf454e2785fc02da7c0"
+  },
+  "driver/SRC/DIBENTRY.INC": {
+    "bytes": 7240,
+    "sha256": "f99f5ed25917cce1033dd8a595b2c878759d8e062a077a5caa3cf91385de5c7c"
+  },
+  "driver/SRC/DIBHEAD.INC": {
+    "bytes": 6659,
+    "sha256": "10b17bc605577904a5100d0b36c3fa956bbb7c77dc3b34795bc81394aac2b17c"
+  },
+  "driver/SRC/DIBPACK.INC": {
+    "bytes": 4023,
+    "sha256": "bf7b37f71bd03c20ac014b51a077e4745363bc493d009f1e1c7aeb93d44a39ea"
+  },
+  "driver/SRC/DIBRLE.INC": {
+    "bytes": 3602,
+    "sha256": "cca38a187f76db5c37291cee3d4f6dc0feef40b29a34ef9aedcbfb615146a6ee"
+  },
+  "driver/SRC/DIBSTRM.INC": {
+    "bytes": 6217,
+    "sha256": "0a988260d3a164a74965ded97d41b4f7b5e9468345b96b117fa546437e28716f"
+  },
+  "driver/SRC/DIBSURF.INC": {
+    "bytes": 6810,
+    "sha256": "3e4f17d1bf91cde5f01fc8870670950b8d3e75f20eda99b5150aa0cbda1234fa"
+  },
+  "driver/SRC/DRAWDEF.INC": {
+    "bytes": 7897,
+    "sha256": "d195200dc317839195eeb12f404847fa8899b291c1f4eebc4b6fa284431efeac"
+  },
+  "driver/SRC/DRAWDIAG.INC": {
+    "bytes": 2065,
+    "sha256": "aeaa061a36458c0404f8fe7248302934f601b8ab88adde7aa46ff240508eb728"
+  },
+  "driver/SRC/EGCBASE.ASM": {
+    "bytes": 20194,
+    "sha256": "052460e2e5f6eab3203904372d259be15a941671351c773e622231ca2ca69c70"
+  },
+  "driver/SRC/EGCBASE.DEF": {
+    "bytes": 1097,
+    "sha256": "83381c0e4b813c8691970cbfcfdec8e945dc9a813f156e0a322134cf8c239422"
+  },
+  "driver/SRC/EGCBASE.RC": {
+    "bytes": 2816,
+    "sha256": "6a96a9b896dc5e16bf818c7a412d59da2d7d3024a6e5feb669407fb48091bee7"
+  },
+  "driver/SRC/FILL.INC": {
+    "bytes": 51173,
+    "sha256": "4613b7693a72e5b20e6aa6691105b1686827c63eafbd6f46c910566f2ff0a80b"
+  },
+  "driver/SRC/FILLDEF.INC": {
+    "bytes": 2164,
+    "sha256": "01b5112f8051afa1d5e46d458a02e045e184c9d40905f3001a38f54a3e20b138"
+  },
+  "driver/SRC/HELPERS.INC": {
+    "bytes": 7036,
+    "sha256": "78c70e3ef948b1d66c2a44f3c945efbd2ad266ddba42b34449d60c84459dee1c"
+  },
+  "driver/SRC/HELPTAB.INC": {
+    "bytes": 54,
+    "sha256": "b1a575829778eb9bbd97b4b5c57c74001f89e50b059b281a2179b09ecaad6691"
+  },
+  "driver/SRC/MAPCACHE.INC": {
+    "bytes": 1783,
+    "sha256": "91f45fa6336d3a657718282043b9e23d8db58f8adf13eee8708b11f8fe3c5356"
+  },
+  "driver/SRC/NARROW.INC": {
+    "bytes": 7910,
+    "sha256": "77dc18c4029868903d31453d33f6a4beffff1cde98685b47d40de43131881142"
+  },
+  "driver/SRC/OBJECT.INC": {
+    "bytes": 11450,
+    "sha256": "ac11ed922fbbcb9117f5bb48a1fa562e9bf6b10da7964dee50f29c77af419714"
+  },
+  "driver/SRC/OBTABLE.INC": {
+    "bytes": 2237,
+    "sha256": "455707b8328765ba80aabd4065003689435297d2af68cb646590b4d526408e15"
+  },
+  "driver/SRC/OUTPUT.INC": {
+    "bytes": 16420,
+    "sha256": "5bfd8857ad0b5675aa5730da97702e5ba17df36d785604aebb936a4191b197ee"
+  },
+  "driver/SRC/PIXEL.INC": {
+    "bytes": 21683,
+    "sha256": "cd0ad00ca4c8c03026f0af6133821848a7bd401fc21351407e08d4d46b9f27fd"
+  },
+  "driver/SRC/PLANES.INC": {
+    "bytes": 21954,
+    "sha256": "c801d904b00b551e523235ed2e327f101573a32a9c4785d55fa0a16a50c15d01"
+  },
+  "driver/SRC/RANGE.INC": {
+    "bytes": 3594,
+    "sha256": "e4e7814cade25125ee404d984411a3368229502c8d91f8023b20c13b28f15174"
+  },
+  "driver/SRC/ROWCOPY.INC": {
+    "bytes": 35759,
+    "sha256": "64a7a4c337808f060b9ca44e37c6e3fe2b948c7e53f729e2158d1c700541b247"
+  },
+  "driver/SRC/SCREEN.INC": {
+    "bytes": 1777,
+    "sha256": "7073cc489cc8ef8756c11e9738b947caa224bc28e24d6137aec3ca9598024729"
+  },
+  "driver/SRC/SOURCE.INC": {
+    "bytes": 13510,
+    "sha256": "78dcf31eea193582e6971896f339cc5b65a0f51405e121f9cba35b392a3b2db3"
+  },
+  "driver/SRC/SPANS.INC": {
+    "bytes": 7485,
+    "sha256": "75d95559330854b7a3a3ffc9abc68a365430ab7a8c4c4910111b68dcc3485a95"
+  },
+  "driver/SRC/TEXTFAST.INC": {
+    "bytes": 23472,
+    "sha256": "349275a8334b7c00d16d4fb28dcc2d6f9c3bf629fb293e74f537da0fe7dabb18"
+  },
+  "driver/SRC/TRACE.INC": {
+    "bytes": 3870,
+    "sha256": "e601efd25e984b2b260fc375b387e942f7cfbe71d34a66dac3ed5c3169f661a0"
+  },
+  "driver/SRC/TRACEDEF.INC": {
+    "bytes": 1489,
+    "sha256": "ccef6b7af11b3cc8273abda95a11e75e83d301bdc9274d4db0cfd349c8e16758"
+  },
+  "driver/SRC/TXTCORE.INC": {
+    "bytes": 17441,
+    "sha256": "31e75c84b739a8753db458edd9b1e90c399d72059a0b650c50e468fb104e0b1d"
+  },
+  "driver/SRC/TXTDRAW.INC": {
+    "bytes": 29743,
+    "sha256": "cedddd5e0f294ba20a7bac165a111cdbb9f08e3d0c290e0b8bb6d103d3654348"
+  },
+  "driver/tool-inputs.json": {
+    "bytes": 2105,
+    "sha256": "7c77dfe80ceebcab35f174d62505ee18c479c27c8365fd299c815f097f54a606"
+  },
+  "helpers/CMPINI.ASM": {
+    "bytes": 2155,
+    "sha256": "aa6cb8b5ce3805b11ca2daccae2a631911aa654cf04df5da3f4e9454e282aea5"
+  },
+  "helpers/EGCTEXT.ASM": {
+    "bytes": 11910,
+    "sha256": "24e85ae72654dcf7b2ef5fcde4b6ea3491217eafda20a2b6c86eabd50aa99822"
+  },
+  "helpers/LOGO.ASM": {
+    "bytes": 3277,
+    "sha256": "cf6c5bce90f4a5d5b221a2a1ad58449bf6651ad029289fdb62d808824acde2b5"
+  },
+  "INSTALLATION.md": {
+    "bytes": 2423,
+    "sha256": "3d53a239682444b65bd569b4f731fc0ae85f5f89d5138533f81f3b563852c994"
+  },
+  "installer/BACKUP.BAT": {
+    "bytes": 1565,
+    "sha256": "86c56de32c432ac5a4abda04d71e16decc87d550bc0f4b2d55ba81cc18bc61c2"
+  },
+  "installer/OEMSETUP.INF": {
+    "bytes": 1008,
+    "sha256": "fe261eabc2f1c9853e4e252ace73774955058e84a0ad8aa61a7d98058be0c897"
+  },
+  "installer/RESTORE.BAT": {
+    "bytes": 1308,
+    "sha256": "f1a87051c44d51c048c2b2304fa19fadc945232256bff6253a0ca87097e0ca3f"
+  },
+  "LICENSE": {
+    "bytes": 1087,
+    "sha256": "878a0293212a2b857557bb89f2601b46f353364f03742abf3e52dfd741fd03d4"
+  },
+  "README.md": {
+    "bytes": 4003,
+    "sha256": "bdddbee5eea27bb9f00b2305ecd595c0497dcd6d35ce5ac1c6635347b74a791c"
+  },
+  "RELEASE_NOTES.md": {
+    "bytes": 1109,
+    "sha256": "46627a81bc66764183ac5747fa423dbd7ef134d4e93341620acdb31c0ad585a0"
+  },
+  "THIRD_PARTY.md": {
+    "bytes": 1577,
+    "sha256": "313ae48e8d94ba2859ffb40672b746154c81d682dd2b21182c878b9fb00a3e90"
+  }
+}

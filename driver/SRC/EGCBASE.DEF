@@ -1,0 +1,46 @@
+LIBRARY DISPLAY
+EXETYPE WINDOWS
+DESCRIPTION 'DISPLAY : 120, 96, 72 : Olivetti EGC 640x400 16 colors (experimental desktop)'
+STUB 'C:\BIN\WINSTUB.EXE'
+DATA PRELOAD FIXED SINGLE
+SEGMENTS
+    _TEXT PRELOAD FIXED SHARED
+    _DIB LOADONCALL MOVEABLE DISCARDABLE SHARED
+EXPORTS
+    DeviceBitmapBits @19
+    DIBScreenBlt @21
+    BitBlt @1
+    GetCharWidth @15
+    StrBlt @11
+    ExtTextOut @14
+    ColorInfo @2
+    Output @8
+    Pixel @9
+    RealizeObject @10
+    Disable @4
+    Enable @5
+    Control @3
+    EnumDFonts @6
+    EnumObj @7
+    ScanLR @12
+    DeviceMode @13
+    DeviceBitmap @16
+    FastBorder @17
+    SetAttribute @18
+    CreateBitmap @20
+    Inquire @101
+    SetCursor @102
+    MoveCursor @103
+    CheckCursor @104
+IMPORTS
+    HugeIncrement = KERNEL.114
+    GlobalSize = KERNEL.20
+    GetSelectorBase = KERNEL.186
+    GlobalReAlloc = KERNEL.16
+    GlobalHandle = KERNEL.21
+    VideoA000 = KERNEL.174
+    WinFlags = KERNEL.178
+    VideoB000 = KERNEL.181
+    VideoB800 = KERNEL.182
+    GlobalDosAlloc = KERNEL.184
+    GlobalDosFree = KERNEL.185

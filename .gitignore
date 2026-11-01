@@ -1,0 +1,12 @@
+/build/
+/dist/
+/inputs/
+__pycache__/
+*.pyc
+*.obj
+*.lst
+*.map
+*.sym
+*.drv
+*.fon
+*.img
